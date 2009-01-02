@@ -1,0 +1,20 @@
+[CurrentProject]
+curproj=ApacheWatcher.vpj
+[ProjectDates]
+ApacheWatcher.vpj=20000917184204000
+[COMPILER]
+workingdir=.
+[ASSOCIATION]
+workspacefile=F:\C++\ApacheWatcher\ApacheWatcher.dsw
+workspacetype=microsoft visual c++
+[TreeExpansion]
+ApacheWatcher.dsp 1 1 0 0 0 0
+[State]
+SCREEN: 1024 768 78 88 768 537 0 0 M 0 0 0 0 841 489
+CWD: F:\Perl\vmdb
+FILEHIST: 5
+C:\Program Files\vslick\project.slk
+C:\Program Files\vslick\win\vslick.ini
+F:\C++\ApacheWatcher\ApacheWatcher.dsw
+F:\C++\ApacheWatcher\Apache.cpp
+F:\Perl\vmdb\artists.pl

@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ApacheWatcher - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x413 /fo"Release/ApacheWatcher.res" /d "NDEBUG" "F:\C++\ApacheWatcher\ApacheWatcher.rc"" 
+Creating temporary file "C:\TEMP\RSP40B2.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/ApacheWatcher.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\C++\ApacheWatcher\Apache.cpp"
+"F:\C++\ApacheWatcher\ApacheWatcher.cpp"
+"F:\C++\ApacheWatcher\Systray.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP40B2.TMP" 
+Creating temporary file "C:\TEMP\RSP40B3.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/ApacheWatcher.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\C++\ApacheWatcher\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP40B3.TMP" 
+Creating temporary file "C:\TEMP\RSP40B4.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ApacheWatcher.pdb" /machine:I386 /out:"Release/ApacheWatcher.exe" 
+".\Release\Apache.obj"
+".\Release\ApacheWatcher.obj"
+".\Release\StdAfx.obj"
+".\Release\Systray.obj"
+".\Release\ApacheWatcher.res"
+]
+Creating command line "link.exe @C:\TEMP\RSP40B4.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Apache.cpp
+ApacheWatcher.cpp
+Systray.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/ApacheWatcher.bsc"  ".\Release\StdAfx.sbr" ".\Release\Apache.sbr" ".\Release\ApacheWatcher.sbr" ".\Release\Systray.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ApacheWatcher.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
